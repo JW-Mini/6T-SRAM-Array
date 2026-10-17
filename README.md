@@ -6,8 +6,8 @@
 ## Design Goal
 Tasked with individually implementing a six-transistor SRAM cell using **Cadence Virtuoso**, performing DRC and LVS
 checks alongside fanout-of-4 simulations to confirm tapeout viability. The SRAM cell is then arranged into a
-4-by-4 array, repeating the same simulations as before. Both the cell and array were also designed with a focus on
-area optimization.
+4-by-4 array before performing full-array simulations. Both the cell and array are designed with a focus on
+area optimization, utilizing minimum DRC spacing in almost all areas.
 
 ## Context
 Static Random Access Memory (SRAM) is the type of memory most commonly found in CPU caches. Unlike Dynamic Random Access Memory
