@@ -4,7 +4,7 @@
 6T SRAM design and size optimization for CMOS VLSI Circuits Design - Winter 2026.
 
 ## Design Goal
-Tasked with individually implementing a six-transistor SRAM cell using Cadence Virtuoso, performing DRC and LVS
+Tasked with individually implementing a six-transistor SRAM cell using **Cadence Virtuoso**, performing DRC and LVS
 checks alongside fanout-of-4 simulations to confirm tapeout viability. The SRAM cell is then arranged into a
 4-by-4 array, repeating the same simulations as before. Both the cell and array were also designed with a focus on
 area optimization.
