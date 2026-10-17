@@ -1,0 +1,11 @@
+CADENCE IHNL11140
+$model
+CE391Lab1/inverter/schematic inverter
+CE391Lab1/Sim_inv/schematic Sim_inv
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+vdd vdd
+$endparam

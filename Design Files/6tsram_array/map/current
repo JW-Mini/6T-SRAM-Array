@@ -1,0 +1,22 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "6tsram_array"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/home/qcj9450/cadence/CE391Lab1/6tsram_array"
+ )
+( model
+( "CE391Lab1/6tsram_precharge/schematic" "6tsram_precharge" )
+( "CE391Lab1/6tsram/schematic" "6tsram" )
+( "CE391Lab1/6tsram_writecircuit/schematic" "6tsram_writecircuit" )
+( "CE391Lab1/6tsram_clockedsense/schematic" "6tsram_clockedsense" )
+( "CE391Lab1/6tsram_array/schematic" "6tsram_array" )
+ )
+( "6tsram_array" "ihnl/cds4/map" )
+( "6tsram_writecircuit" "ihnl/cds2/map" )
+( "6tsram" "ihnl/cds0/map" )
+( "6tsram_clockedsense" "ihnl/cds3/map" )
+( "6tsram_precharge" "ihnl/cds1/map" )
+ )

@@ -1,0 +1,8 @@
+CADENCE IHNL11140
+$model
+CE391Lab1/6tsram_writecircuit/schematic 6tsram_writecircuit
+$endmodel
+$net
+$endnet
+$param
+$endparam

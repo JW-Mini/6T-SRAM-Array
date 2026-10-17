@@ -1,0 +1,8 @@
+//OK 
+//NUMBER_OF_HEADER_LINES: 6
+//VERSION: 1
+//TOKEN_DELIMITER: "
+//TOKEN_SEPARATOR: " "
+//FORMAT: "time" "calibre version" "command line"
+"Wed Mar 18 19:44:00 2026 " "v2011.4_35.27" "-xrc -pdb -rcc -turbo 1 /home/qcj9450/cadence/CE391Lab1/6tsram_array/_calibrexRC.rul_"
+"Wed Mar 18 19:44:04 2026 " "v2011.4_35.27" "-xrc -fmt -all /home/qcj9450/cadence/CE391Lab1/6tsram_array/_calibrexRC.rul_"

@@ -1,0 +1,7 @@
+CADENCE IHNL11145
+
+CE391Lab1 6tsram schematic cds0
+CE391Lab1 6tsram_precharge schematic cds1
+CE391Lab1 6tsram_writecircuit schematic cds2
+CE391Lab1 6tsram_clockedsense schematic cds3
+CE391Lab1 6tsram_array schematic cds4

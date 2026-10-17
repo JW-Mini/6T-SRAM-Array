@@ -1,0 +1,5 @@
+
+// Library name: CE391Lab1
+// Cell name: mux2
+// View name: schematic
+subckt mux2 A B S gnd out vdd

@@ -1,0 +1,11 @@
+    M1 (A S out net2) PMOS_VTG w=600n l=50n as=6.3e-14 ad=6.3e-14 \
+        ps=810.0n pd=810.0n ld=105n ls=105n m=1
+    M0 (B net7 out net6) PMOS_VTG w=600n l=50n as=6.3e-14 ad=6.3e-14 \
+        ps=810.0n pd=810.0n ld=105n ls=105n m=1
+    M3 (out S B net6) NMOS_VTG w=400n l=50n as=4.2e-14 ad=4.2e-14 \
+        ps=610.0n pd=610.0n ld=105n ls=105n m=1
+    M2 (out net7 A net2) NMOS_VTG w=400n l=50n as=4.2e-14 ad=4.2e-14 \
+        ps=610.0n pd=610.0n ld=105n ls=105n m=1
+    I0 (gnd S net7 vdd) inverter
+ends mux2
+// End of subcircuit definition.

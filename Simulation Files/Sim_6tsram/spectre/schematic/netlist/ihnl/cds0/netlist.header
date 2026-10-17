@@ -1,0 +1,5 @@
+
+// Library name: CE391Lab1
+// Cell name: 6tsram
+// View name: schematic
+subckt CE391Lab1_6tsram_schematic bl bl_b gnd vdd wl

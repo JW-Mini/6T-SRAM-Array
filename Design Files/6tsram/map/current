@@ -1,0 +1,14 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "6tsram"
+  repList "auCdl schematic"
+  stopList "auCdl"
+  hierDelim "."
+  netlistDir "/home/qcj9450/cadence/CE391Lab1/6tsram"
+ )
+( model
+( "CE391Lab1/6tsram/schematic" "6tsram" )
+ )
+( "6tsram" "ihnl/cds0/map" )
+ )

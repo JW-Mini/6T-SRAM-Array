@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/6tsram_array.dv
+dv_start matched
+dv_cell {6tsram_array} {6tsram_array} matched
+dv_obj_count -transformed_nets {37 37} -transformed_inst {44 44} -transformed_port {29 29}
+dv_end

@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/qcj9450/cadence/CE391Lab1/mux2
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_LvsOutFile LVS_REPORT mux2.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/qcj9450/cadence/CE391Lab1/mux2/mux2.src.net
+lvs_LvsOutFile RULES_FILE /home/qcj9450/cadence/CE391Lab1/mux2/_calibrexRC.rul_
+lvs_LvsRunTimes 1771428955 1771428955

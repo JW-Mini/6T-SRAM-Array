@@ -1,0 +1,32 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  CE391Lab1
+* Top Cell Name: 6tsram_writecircuit
+* View Name:     schematic
+* Netlisted on:  Mar 16 23:02:35 2026
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: CE391Lab1
+* Cell Name:    6tsram_writecircuit
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 6tsram_writecircuit bl bl_b data gnd vdd write
+*.PININFO data:I write:I bl:B bl_b:B gnd:B vdd:B
+MM4 net18 data gnd gnd NMOS_VTG W=90n L=50n m=1
+MM3 net20 net18 gnd gnd NMOS_VTG W=90n L=50n m=1
+MM2 bl write net20 gnd NMOS_VTG W=90n L=50n m=1
+MM1 net19 data gnd gnd NMOS_VTG W=90n L=50n m=1
+MM0 bl_b write net19 gnd NMOS_VTG W=90n L=50n m=1
+MM5 net18 data vdd vdd PMOS_VTG W=90n L=50n m=1
+.ENDS
+

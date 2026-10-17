@@ -1,0 +1,47 @@
+
+// Library name: CE391Lab1
+// Cell name: inverter
+// View name: schematic
+subckt inverter gnd in out vdd
+    M1 (out in gnd gnd) NMOS_VTG w=400n l=50n as=4.2e-14 ad=4.2e-14 \
+        ps=610.0n pd=610.0n ld=105n ls=105n m=1
+    M0 (out in vdd vdd) PMOS_VTG w=600n l=50n as=6.3e-14 ad=6.3e-14 \
+        ps=810.0n pd=810.0n ld=105n ls=105n m=1
+ends inverter
+// End of subcircuit definition.
+
+// Library name: CE391Lab1
+// Cell name: mux2
+// View name: schematic
+subckt mux2 A B S gnd out vdd
+    M1 (A S out net2) PMOS_VTG w=600n l=50n as=6.3e-14 ad=6.3e-14 \
+        ps=810.0n pd=810.0n ld=105n ls=105n m=1
+    M0 (B net7 out net6) PMOS_VTG w=600n l=50n as=6.3e-14 ad=6.3e-14 \
+        ps=810.0n pd=810.0n ld=105n ls=105n m=1
+    M3 (out S B net6) NMOS_VTG w=400n l=50n as=4.2e-14 ad=4.2e-14 \
+        ps=610.0n pd=610.0n ld=105n ls=105n m=1
+    M2 (out net7 A net2) NMOS_VTG w=400n l=50n as=4.2e-14 ad=4.2e-14 \
+        ps=610.0n pd=610.0n ld=105n ls=105n m=1
+    I0 (gnd S net7 vdd) inverter
+ends mux2
+// End of subcircuit definition.
+
+// Library name: CE391Lab1
+// Cell name: Sim_mux2
+// View name: schematic
+I11 (gnd net010 S vdd) inverter
+I6 (gnd out net26 vdd) inverter
+I5 (gnd out net27 vdd) inverter
+I4 (gnd out net28 vdd) inverter
+I3 (gnd out net29 vdd) inverter
+I2 (gnd net05 B vdd) inverter
+I1 (gnd net10 A vdd) inverter
+V1 (gnd 0) vsource dc=0 type=dc
+V0 (vdd 0) vsource dc=vdd type=dc
+V5 (net010 gnd) vsource dc=0 type=pulse val0=0 val1=1.1 period=20n \
+        delay=1n rise=20p fall=20p width=10n
+V3 (net05 gnd) vsource type=pulse val0=0 val1=1.1 period=5n delay=1n \
+        rise=20p fall=20p width=2.5n
+V2 (net10 gnd) vsource dc=0 type=pulse val0=0 val1=1.1 period=10n delay=1n \
+        rise=20p fall=20p width=5n
+I0 (A B S gnd out vdd) mux2

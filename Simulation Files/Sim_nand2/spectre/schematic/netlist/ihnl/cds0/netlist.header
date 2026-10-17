@@ -1,0 +1,5 @@
+
+// Library name: CE391Lab1
+// Cell name: nand2
+// View name: schematic
+subckt nand2 A B gnd out vdd

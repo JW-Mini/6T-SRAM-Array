@@ -1,0 +1,236 @@
+                  ##################################################
+                  ##                                              ##
+                  ##                 Calibre xRC                  ##
+                  ##                                              ##
+                  ##          Export Lumped Parameters            ##
+                  ##                                              ##
+                  ##################################################
+ 
+ 
+ 
+LAYOUT NAME:              nand2
+RULE FILE NAME:           rules
+CREATION TIME:            Wed Feb 18 11:58:30 2026
+ 
+UNITS:                    Resistance  = ohm
+                          Capacitance = farad
+                          Time        = ns
+ 
+ 
+---------------------------------------------------------------------------------
+CELL NAME:                nand2
+ 
+Netid      R(UpperBound)      Cvalue      %Coupled    RC(UpperBound)   Netname
+---------+---------------+-------------+-------------+--------------+------------
+1                     0.0   4.32975e-16         84.34            0.0  net014
+            - Coupled nets
+               MM3@2:g,MM3@2:g,MM3:g,MM3:g,MM3@2:s,MM3@2:s,MM3@2:s,MM3@2:b,MM3@2:b,MM3@2:b,gnd,gnd,MM2@2:g,MM2@2:g,MM2:g,MM2:g,MM2@2:d,MM2@2:d,MM2@2:d,c_100:n,c_100:n,c_102:n,MM1@2:s,MM1:s,MM0:s
+            - Intrinsic Capacitance
+               6.78037e-17
+            - Coupled capacitance
+               7.63529e-18   netid: MM3@2:g
+               3.25272e-18   netid: MM3@2:g
+               1.72785e-18   netid: MM3:g
+               2.99826e-18   netid: MM3:g
+               8.38621e-17   netid: MM3@2:s
+               4.38826e-17   netid: MM3@2:s
+               5.84902e-18   netid: MM3@2:s
+               1.34971e-17   netid: MM3@2:b
+               1.14397e-17   netid: MM3@2:b
+               1.81692e-17   netid: MM3@2:b
+               1.81692e-17   netid: gnd
+               3.95022e-18   netid: gnd
+               1.71682e-18   netid: MM2@2:g
+               2.99826e-18   netid: MM2@2:g
+               3.25272e-18   netid: MM2:g
+               7.63529e-18   netid: MM2:g
+                3.9273e-17   netid: MM2@2:d
+               5.63989e-18   netid: MM2@2:d
+               8.38621e-17   netid: MM2@2:d
+               8.77068e-19   netid: c_100:n
+               3.07305e-18   netid: c_100:n
+               2.11582e-19   netid: c_102:n
+               8.04795e-19   netid: MM1@2:s
+               8.04795e-19   netid: MM1:s
+               5.88119e-19   netid: MM0:s
+
+
+2                     0.0   2.26891e-16       38.9037            0.0  B
+            - Coupled nets
+               c_1:p,c_2:p,c_3:p,c_2:p,MM3@2:s,MM3@2:s,MM3@2:s,MM3@2:b,gnd,MM2@2:g,MM0@2:g,c_72:n,c_73:n,c_103:n,c_103:n,c_103:n,c_102:n,c_102:n,c_102:n,MM1@2:s,c_145:n,c_145:n,MM1:s
+            - Intrinsic Capacitance
+               1.38622e-16
+            - Coupled capacitance
+               7.63529e-18   netid: c_1:p
+               3.25272e-18   netid: c_2:p
+               1.72785e-18   netid: c_3:p
+               2.99826e-18   netid: c_2:p
+               2.02094e-18   netid: MM3@2:s
+               2.16429e-18   netid: MM3@2:s
+               1.73731e-18   netid: MM3@2:s
+               2.01533e-18   netid: MM3@2:b
+               2.01533e-18   netid: gnd
+               1.30233e-17   netid: MM2@2:g
+               1.30233e-17   netid: MM0@2:g
+               1.30233e-17   netid: c_72:n
+               1.81388e-18   netid: c_73:n
+                1.1364e-18   netid: c_103:n
+               1.11735e-18   netid: c_103:n
+               2.59103e-18   netid: c_103:n
+               1.06331e-18   netid: c_102:n
+                2.9445e-18   netid: c_102:n
+               4.07981e-19   netid: c_102:n
+               6.99207e-18   netid: MM1@2:s
+                1.8382e-18   netid: c_145:n
+                1.8382e-18   netid: c_145:n
+                1.8888e-18   netid: MM1:s
+
+
+3                     0.0   2.97684e-16       76.2858            0.0  gnd
+            - Coupled nets
+               c_1:p,c_3:p,c_2:p,c_3:p,c_2:p,net014,c_1:p,c_2:p,MM3@2:g,MM3:g,c_32:p,MM3:g,MM3@2:g,MM2@2:g,MM2:g,MM2@2:d,c_100:n
+            - Intrinsic Capacitance
+               7.05934e-17
+            - Coupled capacitance
+               8.38621e-17   netid: c_1:p
+               4.38826e-17   netid: c_3:p
+               5.84902e-18   netid: c_2:p
+               1.34971e-17   netid: c_3:p
+               1.14397e-17   netid: c_2:p
+               1.81692e-17   netid: net014
+               1.81692e-17   netid: c_1:p
+               3.95022e-18   netid: c_2:p
+               2.02094e-18   netid: MM3@2:g
+               2.16429e-18   netid: MM3:g
+               1.73731e-18   netid: c_32:p
+               2.01533e-18   netid: MM3:g
+               2.01533e-18   netid: MM3@2:g
+               2.01533e-18   netid: MM2@2:g
+               1.54439e-18   netid: MM2:g
+               1.41569e-17   netid: MM2@2:d
+                6.0116e-19   netid: c_100:n
+
+
+4                     0.0   2.89676e-16       54.9601            0.0  A
+            - Coupled nets
+               c_3:p,c_2:p,c_2:p,net014,MM3:g,MM1:g,c_37:p,c_32:p,MM3@2:b,MM3@2:b,MM2@2:d,MM2@2:d,c_100:n,c_114:n,c_114:n,c_116:n,c_117:n,c_117:n,c_117:n,out,out,out,out,c_102:n,c_102:n,c_102:n,c_127:n,MM1:s,c_149:n,c_149:n,MM0:s
+            - Intrinsic Capacitance
+               1.3047e-16
+            - Coupled capacitance
+               1.71682e-18   netid: c_3:p
+               2.99826e-18   netid: c_2:p
+               3.25272e-18   netid: c_2:p
+               7.63529e-18   netid: net014
+               1.30233e-17   netid: MM3:g
+               1.30233e-17   netid: MM1:g
+               1.30233e-17   netid: c_37:p
+               1.81388e-18   netid: c_32:p
+               2.01533e-18   netid: MM3@2:b
+               1.54439e-18   netid: MM3@2:b
+               5.88202e-18   netid: MM2@2:d
+               4.20931e-18   netid: MM2@2:d
+               5.44846e-18   netid: c_100:n
+                2.2606e-19   netid: c_114:n
+               1.39121e-17   netid: c_114:n
+               5.77409e-18   netid: c_116:n
+                4.0921e-18   netid: c_117:n
+               2.19443e-19   netid: c_117:n
+               1.33266e-17   netid: c_117:n
+               2.60923e-18   netid: out
+               2.60923e-18   netid: out
+               3.67115e-18   netid: out
+               1.76774e-17   netid: out
+                2.9445e-18   netid: c_102:n
+               1.06331e-18   netid: c_102:n
+               2.91442e-19   netid: c_102:n
+               2.59262e-18   netid: c_127:n
+                1.8703e-18   netid: MM1:s
+                2.0257e-18   netid: c_149:n
+               1.71555e-18   netid: c_149:n
+               6.99903e-18   netid: MM0:s
+
+
+5                     0.0   4.65898e-16        84.091            0.0  out
+            - Coupled nets
+               c_3:p,c_2:p,net014,c_2:p,net014,c_3:p,MM1@2:g,MM1:g,c_32:p,MM1@2:g,MM1:g,c_32:p,MM3@2:b,MM3@2:b,MM2@2:g,MM2:g,MM2:g,c_79:p,c_73:n,MM0:g,MM0@2:g,c_79:p,c_73:n,MM2:g,MM0:g,c_87:p,c_73:n,MM0@2:g,MM0:g,c_73:n,MM0:g,MM1@2:s,MM1@2:s,c_145:n,c_145:n,MM1:s,MM1:s,MM1:s,c_149:n,c_149:n,c_149:n,MM0:s,MM0:s,MM0:s
+            - Intrinsic Capacitance
+               7.41199e-17
+            - Coupled capacitance
+                3.9273e-17   netid: c_3:p
+               5.63989e-18   netid: c_2:p
+               8.38621e-17   netid: net014
+               8.77068e-19   netid: c_2:p
+               3.07305e-18   netid: net014
+               2.11582e-19   netid: c_3:p
+                1.1364e-18   netid: MM1@2:g
+               1.11735e-18   netid: MM1:g
+               2.59103e-18   netid: c_32:p
+               1.06331e-18   netid: MM1@2:g
+                2.9445e-18   netid: MM1:g
+               4.07981e-19   netid: c_32:p
+               1.41569e-17   netid: MM3@2:b
+                6.0116e-19   netid: MM3@2:b
+               5.88202e-18   netid: MM2@2:g
+               4.20931e-18   netid: MM2:g
+               5.44846e-18   netid: MM2:g
+                2.2606e-19   netid: c_79:p
+               1.39121e-17   netid: c_73:n
+               5.77409e-18   netid: MM0:g
+                4.0921e-18   netid: MM0@2:g
+               2.19443e-19   netid: c_79:p
+               1.33266e-17   netid: c_73:n
+               2.60923e-18   netid: MM2:g
+               2.60923e-18   netid: MM0:g
+               3.67115e-18   netid: c_87:p
+               1.76774e-17   netid: c_73:n
+                2.9445e-18   netid: MM0@2:g
+               1.06331e-18   netid: MM0:g
+               2.91442e-19   netid: c_73:n
+               2.59262e-18   netid: MM0:g
+               2.56368e-17   netid: MM1@2:s
+               1.72044e-18   netid: MM1@2:s
+               6.18842e-18   netid: c_145:n
+               2.36327e-18   netid: c_145:n
+               3.54237e-17   netid: MM1:s
+               5.94245e-18   netid: MM1:s
+               3.11798e-17   netid: MM1:s
+                6.2283e-19   netid: c_149:n
+               2.18729e-18   netid: c_149:n
+               6.51311e-18   netid: c_149:n
+               3.13838e-18   netid: MM0:s
+               1.72044e-18   netid: MM0:s
+               2.56368e-17   netid: MM0:s
+
+
+6                     0.0   2.78554e-16        63.054            0.0  vdd
+            - Coupled nets
+               c_1:p,c_3:p,net014,MM1@2:g,MM1@2:g,MM1:g,MM1:g,MM0@2:g,MM0@2:g,MM0:g,MM0:g,c_103:n,c_102:n,c_103:n,c_102:n,c_103:n,c_102:n,c_127:n,c_116:n,c_102:n,c_127:n,c_116:n,c_102:n,c_127:n
+            - Intrinsic Capacitance
+               1.02915e-16
+            - Coupled capacitance
+               8.04795e-19   netid: c_1:p
+               8.04795e-19   netid: c_3:p
+               5.88119e-19   netid: net014
+               6.99207e-18   netid: MM1@2:g
+                1.8382e-18   netid: MM1@2:g
+                1.8382e-18   netid: MM1:g
+                1.8888e-18   netid: MM1:g
+                1.8703e-18   netid: MM0@2:g
+                2.0257e-18   netid: MM0@2:g
+               1.71555e-18   netid: MM0:g
+               6.99903e-18   netid: MM0:g
+               2.56368e-17   netid: c_103:n
+               1.72044e-18   netid: c_102:n
+               6.18842e-18   netid: c_103:n
+               2.36327e-18   netid: c_102:n
+               3.54237e-17   netid: c_103:n
+               5.94245e-18   netid: c_102:n
+               3.11798e-17   netid: c_127:n
+                6.2283e-19   netid: c_116:n
+               2.18729e-18   netid: c_102:n
+               6.51311e-18   netid: c_127:n
+               3.13838e-18   netid: c_116:n
+               1.72044e-18   netid: c_102:n
+               2.56368e-17   netid: c_127:n
+
+

@@ -1,0 +1,123 @@
+// Generated for: spectre
+// Generated on: Mar 16 11:04:38 2026
+// Design library name: CE391Lab1
+// Design cell name: Sim_6tsram
+// Design view name: schematic
+simulator lang=spectre
+global 0
+parameters vdd=1.1
+include "/vol/eecs391/FreePDK45/ncsu_basekit/models/hspice/hspice_nom.include"
+
+// Library name: CE391Lab1
+// Cell name: 6tsram
+// View name: schematic
+subckt CE391Lab1_6tsram_schematic bl bl_b gnd vdd wl
+    M3 (bl_b wl net9 gnd) NMOS_VTG w=137.5n l=50n as=1.44375e-14 \
+        ad=1.44375e-14 ps=347.5n pd=347.5n ld=105n ls=105n m=1
+    M2 (bl wl net6 gnd) NMOS_VTG w=137.5n l=50n as=1.44375e-14 \
+        ad=1.44375e-14 ps=347.5n pd=347.5n ld=105n ls=105n m=1
+    M1 (net9 net6 gnd gnd) NMOS_VTG w=210.0n l=50n as=2.205e-14 \
+        ad=2.205e-14 ps=420.0n pd=420.0n ld=105n ls=105n m=1
+    M0 (net6 net9 gnd gnd) NMOS_VTG w=210.0n l=50n as=2.205e-14 \
+        ad=2.205e-14 ps=420.0n pd=420.0n ld=105n ls=105n m=1
+    M5 (net9 net6 vdd vdd) PMOS_VTG w=90n l=50n as=9.45e-15 ad=9.45e-15 \
+        ps=300n pd=300n ld=105n ls=105n m=1
+    M4 (net6 net9 vdd vdd) PMOS_VTG w=90n l=50n as=9.45e-15 ad=9.45e-15 \
+        ps=300n pd=300n ld=105n ls=105n m=1
+ends CE391Lab1_6tsram_schematic
+// End of subcircuit definition.
+
+// Library name: CE391Lab1
+// Cell name: inverter
+// View name: calibre
+subckt inverter gnd in out vdd
+    MM1 (MM1_d MM1_g MM1_s MM1_b) NMOS_VTG w=4e-07 l=5e-08 as=4.2e-14 \
+        ad=4.2e-14 ps=1.01e-06 pd=1.01e-06 ld=105n ls=105n m=1
+    MM0 (MM0_d MM0_g MM0_s MM0_b) PMOS_VTG w=6e-07 l=5e-08 as=6.3e-14 \
+        ad=6.3e-14 ps=1.41e-06 pd=1.41e-06 ld=105n ls=105n m=1
+    cc_17 (MM1_d c_24_n) capacitor c=6.11088e-18
+    cc_16 (MM1_d MM0_s) capacitor c=3.69646e-17
+    cc_15 (MM1_d c_16_n) capacitor c=1.56282e-17
+    cc_14 (MM1_d MM1_s) capacitor c=2.76402e-17
+    cc_13 (MM0_s MM1_s) capacitor c=9.35932e-19
+    cc_12 (MM1_d in) capacitor c=1.28328e-17
+    cc_11 (MM1_d MM1_g) capacitor c=2.52285e-17
+    cc_10 (c_24_n in) capacitor c=2.19637e-19
+    cc_9 (c_24_n MM0_g) capacitor c=2.39964e-18
+    cc_8 (MM0_s c_3_p) capacitor c=2.40906e-19
+    cc_7 (MM0_s in) capacitor c=6.85085e-18
+    cc_6 (MM0_s MM0_g) capacitor c=1.37446e-17
+    cc_5 (c_16_n in) capacitor c=2.95002e-19
+    cc_4 (c_16_n MM1_g) capacitor c=2.01533e-18
+    cc_3 (MM1_s c_3_p) capacitor c=2.07736e-19
+    cc_2 (MM1_s in) capacitor c=3.56673e-18
+    cc_1 (MM1_s MM1_g) capacitor c=7.99919e-18
+    ciout_6 (_net0 MM1_d) capacitor c=5.6869e-17
+    civdd_10 (_net0 vdd_5) capacitor c=1.16541e-17
+    civdd_9 (_net0 MM0_s) capacitor c=3.07601e-17
+    civdd_8 (_net0 c_24_n) capacitor c=1.86997e-17
+    cignd_10 (_net0 gnd_5) capacitor c=1.01136e-17
+    cignd_9 (_net0 MM1_s) capacitor c=2.14337e-17
+    cignd_8 (_net0 c_16_n) capacitor c=1.79352e-17
+    ciin_15 (_net0 MM1_g) capacitor c=4.38008e-17
+    ciin_14 (_net0 MM0_g) capacitor c=5.77226e-17
+    ciin_13 (_net0 in) capacitor c=3.9892e-18
+    ciin_12 (_net0 c_3_p) capacitor c=9.75208e-18
+    rout_8 (out MM1_d) resistor r=2.25662
+    rout_7 (MM0_d out) resistor r=2.85877
+    rvdd_14 (MM0_s vdd_5) resistor r=1.97015
+    rvdd_13 (MM0_b vdd_5) resistor r=0.196708
+    rvdd_12 (vdd c_24_n) resistor r=0.136119
+    rvdd_11 (MM0_b c_24_n) resistor r=0.0743322
+    rgnd_14 (MM1_s gnd_5) resistor r=1.596
+    rgnd_13 (MM1_b gnd_5) resistor r=0.1693
+    rgnd_12 (gnd c_16_n) resistor r=0.175385
+    rgnd_11 (MM1_b c_16_n) resistor r=0.0752444
+    rin_22 (MM1_g in_1) resistor r=51.09
+    rin_21 (c_3_p in_1) resistor r=1.98872
+    rin_20 (MM0_g in_5) resistor r=67.47
+    rin_19 (c_3_p in_5) resistor r=1.98872
+    rin_18 (in_12 in) resistor r=0.00292308
+    rin_17 (in_14 in_12) resistor r=89.3538
+    rin_16 (c_3_p in_14) resistor r=6.448
+ends inverter
+// End of subcircuit definition.
+
+// Library name: CE391Lab1
+// Cell name: Sim_6tsram
+// View name: schematic
+I12 (bl bl_b gnd vdd wl) CE391Lab1_6tsram_schematic
+I16 (gnd bl net022 vdd) inverter
+I15 (gnd bl net023 vdd) inverter
+I14 (gnd bl net024 vdd) inverter
+I13 (gnd bl net025 vdd) inverter
+I11 (gnd net010 wl vdd) inverter
+I6 (gnd bl_b net26 vdd) inverter
+I5 (gnd bl_b net27 vdd) inverter
+I4 (gnd bl_b net28 vdd) inverter
+I3 (gnd bl_b net29 vdd) inverter
+I2 (gnd net05 B vdd) inverter
+I1 (gnd net10 A vdd) inverter
+V1 (gnd 0) vsource dc=0 type=dc
+V0 (vdd 0) vsource dc=vdd type=dc
+V5 (net010 gnd) vsource dc=0 type=pulse val0=0 val1=1.1 period=100n \
+        delay=1n rise=20p fall=20p width=50n
+V3 (net05 gnd) vsource type=pulse val0=0 val1=1.1 period=5n delay=1n \
+        rise=20p fall=20p width=2.5n
+V2 (net10 gnd) vsource dc=0 type=pulse val0=0 val1=1.1 period=10n delay=1n \
+        rise=20p fall=20p width=5n
+simulatorOptions options psfversion="1.1.0" reltol=1e-3 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 \
+    maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=psf 
+tran tran stop=200n errpreset=moderate write="spectre.ic" \
+    writefinal="spectre.fc" annotate=status maxiters=5 
+finalTimeOP info what=oppoint where=rawfile
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+save I12:4 wl bl bl_b 
+saveOptions options save=allpub

@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/6tsram_clockedsense.dv
+dv_start matched
+dv_cell {6tsram_clockedsense} {6tsram_clockedsense} matched
+dv_obj_count -transformed_nets {8 8} -transformed_inst {4 4} -transformed_port {7 7}
+dv_end

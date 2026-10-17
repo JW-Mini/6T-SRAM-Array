@@ -1,0 +1,12 @@
+CADENCE IHNL11140
+$model
+CE391Lab1/Sim_6tsram/schematic Sim_6tsram
+CE391Lab1/inverter/calibre inverter
+CE391Lab1/6tsram/schematic CE391Lab1_6tsram_schematic
+$endmodel
+$net
+gnd! 0
+$endnet
+$param
+vdd vdd
+$endparam

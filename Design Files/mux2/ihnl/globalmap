@@ -1,0 +1,10 @@
+CADENCE IHNL11140
+$model
+CE391Lab1/inverter/schematic inverter
+CE391Lab1/nand2/schematic nand2
+CE391Lab1/mux2/schematic mux2
+$endmodel
+$net
+$endnet
+$param
+$endparam

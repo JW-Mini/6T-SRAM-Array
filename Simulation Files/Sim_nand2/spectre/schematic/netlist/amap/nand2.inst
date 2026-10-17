@@ -1,0 +1,9 @@
+HEADER
+"PSFversion" "1.00"
+"M1n M0n" "NCSU_Devices_FreePDK45_PMOS_VTG_spectre"
+"M3n M2n" "NCSU_Devices_FreePDK45_NMOS_VTG_spectre"
+"Av" ":1v"
+"Bv" ":2v"
+"gndv" ":3v"
+"outv" ":4v"
+"vddv" ":5v"

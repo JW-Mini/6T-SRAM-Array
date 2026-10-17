@@ -1,0 +1,48 @@
+// Generated for: spectre
+// Generated on: Jan  9 10:13:50 2026
+// Design library name: CE391Lab1
+// Design cell name: Sim_inv
+// Design view name: schematic
+simulator lang=spectre
+global 0
+parameters vdd=1.1
+include "/vol/eecs391/FreePDK45/ncsu_basekit/models/hspice/hspice_nom.include"
+
+// Library name: CE391Lab1
+// Cell name: inverter
+// View name: schematic
+subckt inverter gnd in out vdd
+    M1 (out in gnd gnd) NMOS_VTG w=400n l=50n as=4.2e-14 ad=4.2e-14 \
+        ps=610.0n pd=610.0n ld=105n ls=105n m=1
+    M0 (out in vdd vdd) PMOS_VTG w=600n l=50n as=6.3e-14 ad=6.3e-14 \
+        ps=810.0n pd=810.0n ld=105n ls=105n m=1
+ends inverter
+// End of subcircuit definition.
+
+// Library name: CE391Lab1
+// Cell name: Sim_inv
+// View name: schematic
+I4 (gnd out net06 vdd) inverter
+I3 (gnd out net07 vdd) inverter
+I2 (gnd out net08 vdd) inverter
+I1 (gnd in out vdd) inverter
+I0 (gnd net5 in vdd) inverter
+V0 (net5 gnd) vsource dc=0 type=pulse val0=0 val1=1.1 period=10n delay=1n \
+        rise=20p fall=20p width=5n
+V2 (gnd 0) vsource dc=0 type=dc
+V1 (vdd 0) vsource dc=vdd type=dc
+simulatorOptions options psfversion="1.1.0" reltol=1e-3 vabstol=1e-6 \
+    iabstol=1e-12 temp=27 tnom=27 scalem=1.0 scale=1.0 gmin=1e-12 rforce=1 \
+    maxnotes=5 maxwarns=5 digits=5 cols=80 pivrel=1e-3 \
+    sensfile="../psf/sens.output" checklimitdest=psf 
+tran tran stop=50n errpreset=moderate start=0n step=5n write="spectre.ic" \
+    writefinal="spectre.fc" annotate=status maxiters=5 
+finalTimeOP info what=oppoint where=rawfile
+modelParameter info what=models where=rawfile
+element info what=inst where=rawfile
+outputParameter info what=output where=rawfile
+designParamVals info what=parameters where=rawfile
+primitives info what=primitives where=rawfile
+subckts info what=subckts where=rawfile
+save in I1:4 
+saveOptions options save=allpub

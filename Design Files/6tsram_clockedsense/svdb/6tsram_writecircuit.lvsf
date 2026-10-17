@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_LvsOutFile RUNDIR /home/qcj9450/cadence/CE391Lab1/6tsram_clockedsense
+lvs_LvsfVersion 2
+lvs_LvsInputSummary {0 0 0}
+lvs_LvsComparisonSummary {3 0 0 0}
+lvs_LvsOutFile LVS_REPORT 6tsram_writecircuit.lvs.report
+lvs_LvsOutFile SOURCE_NETLIST /home/qcj9450/cadence/CE391Lab1/6tsram_clockedsense/6tsram_writecircuit.src.net
+lvs_LvsOutFile RULES_FILE /home/qcj9450/cadence/CE391Lab1/6tsram_clockedsense/_calibreLVS.rul_
+lvs_LvsRunTimes 1773720156 1773720156

@@ -1,0 +1,20 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "Sim_inv"
+  repList "spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/qcj9450/cadence/simulation/Sim_inv/spectre/schematic/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "CE391Lab1/Sim_inv/schematic" "Sim_inv" )
+( "CE391Lab1/inverter/schematic" "inverter" )
+ )
+( "inverter" "ihnl/cds0/map" )
+( "Sim_inv" "ihnl/cds1/map" )
+ )

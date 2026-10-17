@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Mar 16 11:04:38 2026
+// Design library name: CE391Lab1
+// Design cell name: Sim_6tsram
+// Design view name: schematic
+simulator lang=spectre
+global 0

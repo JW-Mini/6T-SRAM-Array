@@ -1,0 +1,14 @@
+    M3 (bl_b wl net9 gnd) NMOS_VTG w=137.5n l=50n as=1.44375e-14 \
+        ad=1.44375e-14 ps=347.5n pd=347.5n ld=105n ls=105n m=1
+    M2 (bl wl net6 gnd) NMOS_VTG w=137.5n l=50n as=1.44375e-14 \
+        ad=1.44375e-14 ps=347.5n pd=347.5n ld=105n ls=105n m=1
+    M1 (net9 net6 gnd gnd) NMOS_VTG w=210.0n l=50n as=2.205e-14 \
+        ad=2.205e-14 ps=420.0n pd=420.0n ld=105n ls=105n m=1
+    M0 (net6 net9 gnd gnd) NMOS_VTG w=210.0n l=50n as=2.205e-14 \
+        ad=2.205e-14 ps=420.0n pd=420.0n ld=105n ls=105n m=1
+    M5 (net9 net6 vdd vdd) PMOS_VTG w=90n l=50n as=9.45e-15 ad=9.45e-15 \
+        ps=300n pd=300n ld=105n ls=105n m=1
+    M4 (net6 net9 vdd vdd) PMOS_VTG w=90n l=50n as=9.45e-15 ad=9.45e-15 \
+        ps=300n pd=300n ld=105n ls=105n m=1
+ends CE391Lab1_6tsram_schematic
+// End of subcircuit definition.

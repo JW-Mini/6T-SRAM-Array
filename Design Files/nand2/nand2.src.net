@@ -1,0 +1,30 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  CE391Lab1
+* Top Cell Name: nand2
+* View Name:     schematic
+* Netlisted on:  Feb 18 11:58:25 2026
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: CE391Lab1
+* Cell Name:    nand2
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT nand2 A B gnd out vdd
+*.PININFO A:I B:I out:O gnd:B vdd:B
+MM1 out B vdd vdd PMOS_VTG W=600n L=50n m=1
+MM0 out A vdd vdd PMOS_VTG W=600n L=50n m=1
+MM3 net014 B gnd gnd NMOS_VTG W=800n L=50n m=1
+MM2 out A net014 gnd NMOS_VTG W=800n L=50n m=1
+.ENDS
+

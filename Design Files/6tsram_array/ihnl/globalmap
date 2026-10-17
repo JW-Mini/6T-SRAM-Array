@@ -1,0 +1,12 @@
+CADENCE IHNL11140
+$model
+CE391Lab1/6tsram_array/schematic 6tsram_array
+CE391Lab1/6tsram_clockedsense/schematic 6tsram_clockedsense
+CE391Lab1/6tsram_precharge/schematic 6tsram_precharge
+CE391Lab1/6tsram_writecircuit/schematic 6tsram_writecircuit
+CE391Lab1/6tsram/schematic 6tsram
+$endmodel
+$net
+$endnet
+$param
+$endparam

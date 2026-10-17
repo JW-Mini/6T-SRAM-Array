@@ -1,0 +1,33 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  CE391Lab1
+* Top Cell Name: 6tsram_clockedsense
+* View Name:     schematic
+* Netlisted on:  Mar 16 19:00:23 2026
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: CE391Lab1
+* Cell Name:    6tsram_clockedsense
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 6tsram_clockedsense bl bl_b gnd sense sense_b sense_clk vdd
+*.PININFO sense_clk:I bl:B bl_b:B gnd:B sense:B sense_b:B vdd:B
+MM4 net16 sense_clk gnd gnd NMOS_VTG W=90n L=50n m=1
+MM3 sense_b sense net16 gnd NMOS_VTG W=90n L=50n m=1
+MM0 sense sense_b net16 gnd NMOS_VTG W=90n L=50n m=1
+MM6 sense_b sense_clk bl_b vdd PMOS_VTG W=90n L=50n m=1
+MM5 sense sense_clk bl vdd PMOS_VTG W=90n L=50n m=1
+MM2 sense_b sense vdd vdd PMOS_VTG W=90n L=50n m=1
+MM1 sense sense_b vdd vdd PMOS_VTG W=90n L=50n m=1
+.ENDS
+

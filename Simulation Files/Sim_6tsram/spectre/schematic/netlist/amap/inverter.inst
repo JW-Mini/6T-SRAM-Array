@@ -1,0 +1,10 @@
+HEADER
+"PSFversion" "1.00"
+"MM1n" "NCSU_Devices_FreePDK45_NMOS_VTG_spectre"
+"MM0n" "NCSU_Devices_FreePDK45_PMOS_VTG_spectre"
+"cc_17n cc_16n cc_15n cc_14n cc_13n cc_12n cc_11n cc_10n cc_9n cc_8n cc_7n cc_6n cc_5n cc_4n cc_3n cc_2n cc_1n ciout_6n civdd_10n civdd_9n civdd_8n cignd_10n cignd_9n cignd_8n ciin_15n ciin_14n ciin_13n ciin_12n" "analogLib_cap_spectre"
+"rout_8n rout_7n rvdd_14n rvdd_13n rvdd_12n rvdd_11n rgnd_14n rgnd_13n rgnd_12n rgnd_11n rin_22n rin_21n rin_20n rin_19n rin_18n rin_17n rin_16n" "analogLib_res_spectre"
+"gndv" ":1v"
+"inv" ":2v"
+"outv" ":3v"
+"vddv" ":4v"

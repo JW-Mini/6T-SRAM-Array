@@ -1,0 +1,29 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  CE391Lab1
+* Top Cell Name: 6tsram_precharge
+* View Name:     schematic
+* Netlisted on:  Mar 17 09:41:39 2026
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: CE391Lab1
+* Cell Name:    6tsram_precharge
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 6tsram_precharge bl bl_b preC vdd
+*.PININFO preC:I bl:O bl_b:O vdd:B
+MM2 bl preC bl_b vdd PMOS_VTG W=90n L=50n m=1
+MM1 bl_b preC vdd vdd PMOS_VTG W=90n L=50n m=1
+MM0 bl preC vdd vdd PMOS_VTG W=90n L=50n m=1
+.ENDS
+

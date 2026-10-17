@@ -1,0 +1,22 @@
+( ( nil
+  version "2.1"
+  mapType "incremental"
+  blockName "Sim_6tsram"
+  repList "calibre spectre cmos_sch cmos.sch schematic veriloga"
+  stopList "spectre"
+  globalList "gnd!"
+  hierDelim "."
+  netlistDir "/home/qcj9450/cadence/simulation/Sim_6tsram/spectre/schematic/netlist"
+ )
+( net
+( "gnd!" "0" )
+ )
+( model
+( "CE391Lab1/6tsram/schematic" "CE391Lab1_6tsram_schematic" )
+( "CE391Lab1/Sim_6tsram/schematic" "Sim_6tsram" )
+( "CE391Lab1/inverter/calibre" "inverter" )
+ )
+( "CE391Lab1_6tsram_schematic" "ihnl/cds0/map" )
+( "inverter" "ihnl/cds1/map" )
+( "Sim_6tsram" "ihnl/cds2/map" )
+ )

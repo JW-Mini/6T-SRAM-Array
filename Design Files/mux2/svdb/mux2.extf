@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 2
+lvs_ExtRunTimes 1771428954 1771428954
+lvs_ExtOutFile RUNDIR /home/qcj9450/cadence/CE391Lab1/mux2
+lvs_ExtOutFile RULES_FILE /home/qcj9450/cadence/CE391Lab1/mux2/_calibrexRC.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/qcj9450/cadence/CE391Lab1/mux2/svdb/mux2.sp
+lvs_ExtOutFile EXTRACTION_REPORT mux2.lvs.report.ext

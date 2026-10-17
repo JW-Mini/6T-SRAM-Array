@@ -1,0 +1,20 @@
+
+// Library name: CE391Lab1
+// Cell name: Sim_mux2
+// View name: schematic
+I11 (gnd net010 S vdd) inverter
+I6 (gnd out net26 vdd) inverter
+I5 (gnd out net27 vdd) inverter
+I4 (gnd out net28 vdd) inverter
+I3 (gnd out net29 vdd) inverter
+I2 (gnd net05 B vdd) inverter
+I1 (gnd net10 A vdd) inverter
+V1 (gnd 0) vsource dc=0 type=dc
+V0 (vdd 0) vsource dc=vdd type=dc
+V5 (net010 gnd) vsource dc=0 type=pulse val0=0 val1=1.1 period=20n \
+        delay=1n rise=20p fall=20p width=10n
+V3 (net05 gnd) vsource type=pulse val0=0 val1=1.1 period=5n delay=1n \
+        rise=20p fall=20p width=2.5n
+V2 (net10 gnd) vsource dc=0 type=pulse val0=0 val1=1.1 period=10n delay=1n \
+        rise=20p fall=20p width=5n
+I0 (A B S gnd out vdd) mux2

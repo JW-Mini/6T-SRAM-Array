@@ -1,0 +1,90 @@
+                  ##################################################
+                  ##                                              ##
+                  ##                 Calibre xRC                  ##
+                  ##                                              ##
+                  ##          Export Lumped Parameters            ##
+                  ##                                              ##
+                  ##################################################
+ 
+ 
+ 
+LAYOUT NAME:              inverter
+RULE FILE NAME:           rules
+CREATION TIME:            Fri Jan 16 09:36:15 2026
+ 
+UNITS:                    Resistance  = ohm
+                          Capacitance = farad
+                          Time        = ns
+ 
+ 
+---------------------------------------------------------------------------------
+CELL NAME:                inverter
+ 
+Netid      R(UpperBound)      Cvalue      %Coupled    RC(UpperBound)   Netname
+---------+---------------+-------------+-------------+--------------+------------
+1                     0.0   1.90866e-16       39.6095            0.0  in
+            - Coupled nets
+               MM1:s,MM1:s,MM1:s,c_16:n,c_16:n,MM0:s,MM0:s,MM0:s,c_24:n,c_24:n,MM1:d,MM1:d
+            - Intrinsic Capacitance
+               1.15265e-16
+            - Coupled capacitance
+               7.99919e-18   netid: MM1:s
+               3.56673e-18   netid: MM1:s
+               2.07736e-19   netid: MM1:s
+               2.01533e-18   netid: c_16:n
+               2.95002e-19   netid: c_16:n
+               1.37446e-17   netid: MM0:s
+               6.85085e-18   netid: MM0:s
+               2.40906e-19   netid: MM0:s
+               2.39964e-18   netid: c_24:n
+               2.19637e-19   netid: c_24:n
+               2.52285e-17   netid: MM1:d
+               1.28328e-17   netid: MM1:d
+
+
+2                     0.0   1.07771e-16       54.0855            0.0  gnd
+            - Coupled nets
+               MM1:g,in,c_3:p,MM1:g,in,MM0:s,MM1:d,MM1:d
+            - Intrinsic Capacitance
+               4.94825e-17
+            - Coupled capacitance
+               7.99919e-18   netid: MM1:g
+               3.56673e-18   netid: in
+               2.07736e-19   netid: c_3:p
+               2.01533e-18   netid: MM1:g
+               2.95002e-19   netid: in
+               9.35932e-19   netid: MM0:s
+               2.76402e-17   netid: MM1:d
+               1.56282e-17   netid: MM1:d
+
+
+3                     0.0   1.28581e-16       52.4705            0.0  vdd
+            - Coupled nets
+               MM0:g,in,c_3:p,MM0:g,in,MM1:s,MM1:d,MM1:d
+            - Intrinsic Capacitance
+               6.11138e-17
+            - Coupled capacitance
+               1.37446e-17   netid: MM0:g
+               6.85085e-18   netid: in
+               2.40906e-19   netid: c_3:p
+               2.39964e-18   netid: MM0:g
+               2.19637e-19   netid: in
+               9.35932e-19   netid: MM1:s
+               3.69646e-17   netid: MM1:d
+               6.11088e-18   netid: MM1:d
+
+
+4                     0.0   1.81274e-16       68.6282            0.0  out
+            - Coupled nets
+               MM1:g,in,MM1:s,c_16:n,MM0:s,c_24:n
+            - Intrinsic Capacitance
+               5.6869e-17
+            - Coupled capacitance
+               2.52285e-17   netid: MM1:g
+               1.28328e-17   netid: in
+               2.76402e-17   netid: MM1:s
+               1.56282e-17   netid: c_16:n
+               3.69646e-17   netid: MM0:s
+               6.11088e-18   netid: c_24:n
+
+

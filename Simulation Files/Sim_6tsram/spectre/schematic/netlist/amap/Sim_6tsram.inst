@@ -1,0 +1,6 @@
+HEADER
+"PSFversion" "1.00"
+"I12n" "CE391Lab1_6tsram_schematic"
+"I16n I15n I14n I13n I11n I6n I5n I4n I3n I2n I1n" "inverter"
+"V1n V0n" "analogLib_vdc_spectre"
+"V5n V3n V2n" "analogLib_vpulse_spectre"

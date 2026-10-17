@@ -1,0 +1,121 @@
+************************************************************************
+* auCdl Netlist:
+* 
+* Library Name:  CE391Lab1
+* Top Cell Name: 6tsram_array
+* View Name:     schematic
+* Netlisted on:  Mar 18 23:46:35 2026
+************************************************************************
+
+*.EQUATION
+*.SCALE METER
+*.MEGA
+.PARAM
+
+
+
+************************************************************************
+* Library Name: CE391Lab1
+* Cell Name:    6tsram
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 6tsram bl bl_b gnd vdd wl
+*.PININFO wl:I bl:B bl_b:B gnd:B vdd:B
+MM3 bl_b wl net9 gnd NMOS_VTG W=90n L=50n m=1
+MM2 bl wl net6 gnd NMOS_VTG W=90n L=50n m=1
+MM1 net9 net6 gnd gnd NMOS_VTG W=135.00n L=50n m=1
+MM0 net6 net9 gnd gnd NMOS_VTG W=135.00n L=50n m=1
+MM5 net9 net6 vdd vdd PMOS_VTG W=90n L=50n m=1
+MM4 net6 net9 vdd vdd PMOS_VTG W=90n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: CE391Lab1
+* Cell Name:    6tsram_precharge
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 6tsram_precharge bl bl_b preC vdd
+*.PININFO preC:I bl:O bl_b:O vdd:B
+MM2 bl preC bl_b vdd PMOS_VTG W=90n L=50n m=1
+MM1 bl_b preC vdd vdd PMOS_VTG W=90n L=50n m=1
+MM0 bl preC vdd vdd PMOS_VTG W=90n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: CE391Lab1
+* Cell Name:    6tsram_writecircuit
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 6tsram_writecircuit bl bl_b data gnd vdd write
+*.PININFO data:I write:I bl:B bl_b:B gnd:B vdd:B
+MM4 net18 data gnd gnd NMOS_VTG W=90n L=50n m=1
+MM3 net20 net18 gnd gnd NMOS_VTG W=180.0n L=50n m=1
+MM2 bl write net20 gnd NMOS_VTG W=180.0n L=50n m=1
+MM1 net19 data gnd gnd NMOS_VTG W=180.0n L=50n m=1
+MM0 bl_b write net19 gnd NMOS_VTG W=180.0n L=50n m=1
+MM5 net18 data vdd vdd PMOS_VTG W=90n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: CE391Lab1
+* Cell Name:    6tsram_clockedsense
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 6tsram_clockedsense bl bl_b gnd sense sense_b sense_clk vdd
+*.PININFO sense_clk:I bl:B bl_b:B gnd:B sense:B sense_b:B vdd:B
+MM4 net16 sense_clk gnd gnd NMOS_VTG W=90n L=50n m=1
+MM3 sense_b sense net16 gnd NMOS_VTG W=90n L=50n m=1
+MM0 sense sense_b net16 gnd NMOS_VTG W=90n L=50n m=1
+MM6 sense_b sense_clk bl_b vdd PMOS_VTG W=90n L=50n m=1
+MM5 sense sense_clk bl vdd PMOS_VTG W=90n L=50n m=1
+MM2 sense_b sense vdd vdd PMOS_VTG W=90n L=50n m=1
+MM1 sense sense_b vdd vdd PMOS_VTG W=90n L=50n m=1
+.ENDS
+
+************************************************************************
+* Library Name: CE391Lab1
+* Cell Name:    6tsram_array
+* View Name:    schematic
+************************************************************************
+
+.SUBCKT 6tsram_array bl1 bl1_b bl2 bl2_b bl3 bl3_b bl4 bl4_b data1 data2 data3 
++ data4 gnd preC read1 read1_b read2 read2_b read3 read3_b read4 read4_b 
++ sense_clk vdd wl1 wl2 wl3 wl4 write_en
+*.PININFO data1:I data2:I data3:I data4:I preC:I sense_clk:I wl1:I wl2:I wl3:I 
+*.PININFO wl4:I write_en:I bl1:O bl1_b:O bl2:O bl2_b:O bl3:O bl3_b:O bl4:O 
+*.PININFO bl4_b:O read1:O read1_b:O read2:O read2_b:O read3:O read3_b:O 
+*.PININFO read4:O read4_b:O gnd:B vdd:B
+XI15 bl4 bl4_b gnd vdd wl4 / 6tsram
+XI14 bl3 bl3_b gnd vdd wl4 / 6tsram
+XI13 bl2 bl2_b gnd vdd wl4 / 6tsram
+XI12 bl1 bl1_b gnd vdd wl4 / 6tsram
+XI11 bl4 bl4_b gnd vdd wl3 / 6tsram
+XI10 bl3 bl3_b gnd vdd wl3 / 6tsram
+XI9 bl2 bl2_b gnd vdd wl3 / 6tsram
+XI8 bl1 bl1_b gnd vdd wl3 / 6tsram
+XI7 bl4 bl4_b gnd vdd wl2 / 6tsram
+XI6 bl3 bl3_b gnd vdd wl2 / 6tsram
+XI5 bl2 bl2_b gnd vdd wl2 / 6tsram
+XI4 bl1 bl1_b gnd vdd wl2 / 6tsram
+XI3 bl4 bl4_b gnd vdd wl1 / 6tsram
+XI2 bl3 bl3_b gnd vdd wl1 / 6tsram
+XI1 bl2 bl2_b gnd vdd wl1 / 6tsram
+XI0 bl1 bl1_b gnd vdd wl1 / 6tsram
+XI19 bl4 bl4_b preC vdd / 6tsram_precharge
+XI18 bl3 bl3_b preC vdd / 6tsram_precharge
+XI17 bl2 bl2_b preC vdd / 6tsram_precharge
+XI16 bl1 bl1_b preC vdd / 6tsram_precharge
+XI23 bl4 bl4_b data4 gnd vdd write_en / 6tsram_writecircuit
+XI22 bl3 bl3_b data3 gnd vdd write_en / 6tsram_writecircuit
+XI21 bl2 bl2_b data2 gnd vdd write_en / 6tsram_writecircuit
+XI20 bl1 bl1_b data1 gnd vdd write_en / 6tsram_writecircuit
+XI27 bl4 bl4_b gnd read4 read4_b sense_clk vdd / 6tsram_clockedsense
+XI26 bl3 bl3_b gnd read3 read3_b sense_clk vdd / 6tsram_clockedsense
+XI25 bl2 bl2_b gnd read2 read2_b sense_clk vdd / 6tsram_clockedsense
+XI24 bl1 bl1_b gnd read1 read1_b sense_clk vdd / 6tsram_clockedsense
+.ENDS
+

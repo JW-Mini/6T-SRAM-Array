@@ -1,0 +1,7 @@
+// Generated for: spectre
+// Generated on: Jan  9 10:13:50 2026
+// Design library name: CE391Lab1
+// Design cell name: Sim_inv
+// Design view name: schematic
+simulator lang=spectre
+global 0

@@ -1,0 +1,6 @@
+# CALIBRE-LVS DISCREPANCY VIEWER TCL FILE 
+# FILE: svdb/6tsram_writecircuit.dv
+dv_start matched
+dv_cell {6tsram_writecircuit} {6tsram_writecircuit} matched
+dv_obj_count -transformed_nets {7 7} -transformed_inst {3 3} -transformed_port {6 6}
+dv_end

@@ -1,0 +1,454 @@
+Begin Incremental Netlisting Jan  8 12:16:03 2026
+ERROR (OSSHNL-912): Netlisting failed because terminal 'gnd' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+ERROR (OSSHNL-912): Netlisting failed because terminal 'in' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+ERROR (OSSHNL-912): Netlisting failed because terminal 'out' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+ERROR (OSSHNL-912): Netlisting failed because terminal 'vdd' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+End netlisting Jan  8 12:16:04 2026
+Begin Incremental Netlisting Jan  8 12:16:17 2026
+ERROR (OSSHNL-912): Netlisting failed because terminal 'gnd' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+ERROR (OSSHNL-912): Netlisting failed because terminal 'in' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+ERROR (OSSHNL-912): Netlisting failed because terminal 'out' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+ERROR (OSSHNL-912): Netlisting failed because terminal 'vdd' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+End netlisting Jan  8 12:16:17 2026
+Begin Incremental Netlisting Jan  8 12:16:48 2026
+ERROR (OSSHNL-912): Netlisting failed because terminal 'gnd' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+ERROR (OSSHNL-912): Netlisting failed because terminal 'in' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+ERROR (OSSHNL-912): Netlisting failed because terminal 'out' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+ERROR (OSSHNL-912): Netlisting failed because terminal 'vdd' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+End netlisting Jan  8 12:16:48 2026
+Begin Incremental Netlisting Jan  8 12:18:04 2026
+ERROR (OSSHNL-912): Netlisting failed because terminal 'gnd' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+ERROR (OSSHNL-912): Netlisting failed because terminal 'in' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+ERROR (OSSHNL-912): Netlisting failed because terminal 'out' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+ERROR (OSSHNL-912): Netlisting failed because terminal 'vdd' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+End netlisting Jan  8 12:18:05 2026
+Begin Incremental Netlisting Jan  8 12:18:42 2026
+ERROR (OSSHNL-912): Netlisting failed because terminal 'gnd' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+ERROR (OSSHNL-912): Netlisting failed because terminal 'in' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+ERROR (OSSHNL-912): Netlisting failed because terminal 'out' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+ERROR (OSSHNL-912): Netlisting failed because terminal 'vdd' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+End netlisting Jan  8 12:18:42 2026
+Begin Incremental Netlisting Jan  8 12:19:35 2026
+ERROR (OSSHNL-912): Netlisting failed because terminal 'gnd' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+ERROR (OSSHNL-912): Netlisting failed because terminal 'in' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+ERROR (OSSHNL-912): Netlisting failed because terminal 'out' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+ERROR (OSSHNL-912): Netlisting failed because terminal 'vdd' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+End netlisting Jan  8 12:19:35 2026
+Begin Incremental Netlisting Jan  8 12:20:06 2026
+ERROR (OSSHNL-912): Netlisting failed because terminal 'gnd' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+ERROR (OSSHNL-912): Netlisting failed because terminal 'in' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+ERROR (OSSHNL-912): Netlisting failed because terminal 'out' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+ERROR (OSSHNL-912): Netlisting failed because terminal 'vdd' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+End netlisting Jan  8 12:20:06 2026
+Begin Incremental Netlisting Jan  8 12:21:07 2026
+ERROR (OSSHNL-912): Netlisting failed because terminal 'gnd' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+ERROR (OSSHNL-912): Netlisting failed because terminal 'in' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+ERROR (OSSHNL-912): Netlisting failed because terminal 'out' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+ERROR (OSSHNL-912): Netlisting failed because terminal 'vdd' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+End netlisting Jan  8 12:21:07 2026
+Begin Incremental Netlisting Jan  8 12:21:31 2026
+ERROR (OSSHNL-912): Netlisting failed because terminal 'gnd' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+ERROR (OSSHNL-912): Netlisting failed because terminal 'in' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+ERROR (OSSHNL-912): Netlisting failed because terminal 'out' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+ERROR (OSSHNL-912): Netlisting failed because terminal 'vdd' specified in placed
+master 'CE391Lab1/inverter/symbol'
+does not exist in switch master
+'CE391Lab1/inverter/schematic'. To continue netlisting, either set
+the
+'simCheckTermMismatchAction' to 'ignore', or set
+the
+'simCheckTermMismatchAction' to 'warning' and 'nlAction' to 'ignore' for
+the
+missing terminal.
+
+End netlisting Jan  8 12:21:31 2026
+Begin Incremental Netlisting Jan  8 12:22:38 2026
+End netlisting Jan  8 12:22:38 2026
+Begin Incremental Netlisting Jan  8 12:22:51 2026
+End netlisting Jan  8 12:22:51 2026
+Begin Incremental Netlisting Jan  8 12:29:52 2026
+End netlisting Jan  8 12:29:52 2026
+Begin Incremental Netlisting Jan  8 12:32:30 2026
+End netlisting Jan  8 12:32:30 2026
+Begin Incremental Netlisting Jan  8 12:33:05 2026
+End netlisting Jan  8 12:33:05 2026
+Begin Incremental Netlisting Jan  8 12:35:30 2026
+End netlisting Jan  8 12:35:30 2026
+Begin Incremental Netlisting Jan  8 12:35:41 2026
+End netlisting Jan  8 12:35:41 2026
+Begin Incremental Netlisting Jan  8 12:46:14 2026
+End netlisting Jan  8 12:46:14 2026
+Begin Incremental Netlisting Jan  8 12:46:32 2026
+End netlisting Jan  8 12:46:32 2026
+Begin Incremental Netlisting Jan  8 12:52:27 2026
+End netlisting Jan  8 12:52:27 2026
+Begin Incremental Netlisting Jan  8 13:06:48 2026
+ERROR (OSSHNL-109): The cellview 'CE391Lab1/Sim_inv/schematic' has been modified
+since the last extraction. Validate
+that the schematic is correct and run Check
+and Save to correct this error.
+
+End netlisting Jan  8 13:06:48 2026
+Begin Incremental Netlisting Jan  8 13:06:53 2026
+ERROR (OSSHNL-109): The cellview 'CE391Lab1/Sim_inv/schematic' has been modified
+since the last extraction. Validate
+that the schematic is correct and run Check
+and Save to correct this error.
+
+End netlisting Jan  8 13:06:53 2026
+Begin Incremental Netlisting Jan  8 13:07:29 2026
+End netlisting Jan  8 13:07:29 2026
+Begin Incremental Netlisting Jan  9 10:13:50 2026
+End netlisting Jan  9 10:13:51 2026
+Begin Incremental Netlisting Jan  9 10:14:02 2026
+End netlisting Jan  9 10:14:03 2026

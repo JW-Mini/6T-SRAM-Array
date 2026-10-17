@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 2
+lvs_ExtRunTimes 1773876368 1773876368
+lvs_ExtOutFile RUNDIR /home/qcj9450/cadence/CE391Lab1/6tsram_writecircuit
+lvs_ExtOutFile RULES_FILE /home/qcj9450/cadence/CE391Lab1/6tsram_writecircuit/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/qcj9450/cadence/CE391Lab1/6tsram_writecircuit/6tsram_writecircuit.sp
+lvs_ExtOutFile EXTRACTION_REPORT 6tsram_writecircuit.lvs.report.ext
